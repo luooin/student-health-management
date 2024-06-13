@@ -22,11 +22,19 @@
 3.  运行环境准备mysql8+jdk1.8+npm14.16.1+redis3
 4.  修改项目yml数据库配置文件为自己的配置
 
+前端运行指令：
+> npm install
+> npm run serve
+
 #### 项目截图
 
 + 系统用例图
 
 ![img](clip_image002.png)
+
+![image](https://github.com/luocong-shuaige/student-health-management/assets/85004172/a954f140-2072-44cc-b732-879e9b7148d2)
+
+![image](https://github.com/luocong-shuaige/student-health-management/assets/85004172/2d7c827c-be52-4060-a77a-971629424d65)
 
 
 
