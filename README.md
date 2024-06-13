@@ -24,8 +24,10 @@
 
 前端初始化指令：
 > npm install
+
 前端运行指令：
 > npm run serve
+
 详情可以查看这篇csdn博客：http://t.csdnimg.cn/kpuxS
 #### 项目截图
 
