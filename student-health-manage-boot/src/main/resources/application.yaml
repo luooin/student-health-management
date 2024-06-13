@@ -1,0 +1,40 @@
+server:
+  port: 8080
+spring:
+  application:
+    name: student-document
+  datasource:
+    druid:
+      username: root
+      password: 123456
+      url: jdbc:mysql://localhost:3306/healthmanager?&serverTimezone=GMT%2B8&characterEncoding=utf-8&zeroDateTimeBehavior=convertToNull
+  servlet:
+    multipart:
+      max-file-size: 5MB
+  mvc:
+    view:
+      prefix: /pages/
+      suffix: .html
+mybatis-plus:
+  mapper-locations: mapper/*.xml
+  type-aliases-package: com.jxau.studentdocument.entity
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+
+# 阿里配置
+aliyun:
+  oss: #存储
+    endpoint: oss-cn-beijing.aliyuncs.com   # 域
+    accessKeyId: LTAI5tGtV2bL6PW38tyS9pd7   # 秘钥KeyId
+    accessKeySecret: 1Axty6vhaPijD3Zmo0nEWUhobnVhuM # 秘钥KeySecret
+    bucketName: my-oss-wzy  # 桶名
+    url: https://my-oss-wzy.oss-cn-beijing.aliyuncs.com/img  # 访问地址
+
+# 阿里配置
+#al:
+#  oss: #存储
+#    endpoint: oss-cn-guangzhou.aliyuncs.com   # 域
+#    accessKeyId: LTAIxxx   # 秘钥KeyId
+#    accessKeySecret: LTAIxxx # 秘钥KeySecret
+#    bucketName: xxxx  # 桶名
+#    url: https://xxx(Bucket 域名)  # 访问地址
