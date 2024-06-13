@@ -30,11 +30,4 @@ aliyun:
     bucketName:   # 桶名
     url:   # 访问地址
 
-# 阿里配置
-#al:
-#  oss: #存储
-#    endpoint: oss-cn-guangzhou.aliyuncs.com   # 域
-#    accessKeyId: LTAIxxx   # 秘钥KeyId
-#    accessKeySecret: LTAIxxx # 秘钥KeySecret
-#    bucketName: xxxx  # 桶名
-#    url: https://xxx(Bucket 域名)  # 访问地址
+
