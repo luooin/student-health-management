@@ -22,10 +22,11 @@
 3.  运行环境准备mysql8+jdk1.8+npm14.16.1+redis3
 4.  修改项目yml数据库配置文件为自己的配置
 
-前端运行指令：
+前端初始化指令：
 > npm install
+前端运行指令：
 > npm run serve
-
+详情可以查看这篇csdn博客：http://t.csdnimg.cn/kpuxS
 #### 项目截图
 
 + 系统用例图
